@@ -36,14 +36,7 @@
     background-color: #FF5105 ;
 }
 
-/*
-.nav .active {
-    background-color: #4F4124 ;
-    color: #FF5105 ;
-}
-*/
-
-.nav li a:active {
+.nav li a.current {
     background-color: #4F4124 ;
     color: #FF5105 ;
 }
