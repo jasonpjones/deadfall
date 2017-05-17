@@ -1,11 +1,12 @@
+/* globals $, window, setInterval */
+
 $(function () {
 
     var hasStarted = false;
     var startViewer = function () {
-        //window.clearInterval();
         $('.fadein p:gt(0)').hide();
         setInterval(function () { $('.fadein > :first-child').fadeOut(1000).next('p').fadeIn(1000).end().appendTo('.fadein'); }, 8000);
-    }
+    };
 
     var newHash = "",
         $mainContent = $("#main-content"),
@@ -30,7 +31,7 @@ $(function () {
                         $mainContent.fadeIn(100, function () {
                             //alert(newHash);
                             $('.fadein p:gt(0)').hide();
-                            if (newHash.indexOf("home") != -1 && !hasStarted) {
+                            if (newHash.indexOf("home") !== -1 && !hasStarted) {
                                 hasStarted = true;
                                 startViewer();
                             }
@@ -39,7 +40,7 @@ $(function () {
                         $("nav a[href=" + newHash + "]").addClass("current");
                     });
                 });
-        };
+        }
 
     });
 

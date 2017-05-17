@@ -24,7 +24,7 @@ module.exports = function (grunt) {
                 //"unused" : true
             },
             // when this task is run, lint the Gruntfile and all js files in src
-            build: ['Gruntfile.js', 'src/*.js', 'specs/*.js']
+            build: ['src/*.js', 'specs/*.js']
         },
 
         jasmine: {
