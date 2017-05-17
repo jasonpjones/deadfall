@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.home-slides {
+    height: 660px;
+}
+
+.logo {
+    width:240px;
+    height:200px;
+    float:left;  /*actually shifts everything over and appears left of slide show - not bad   */
+}
+
+.logo img {
+
+    max-width: 100%;
+    max-height: 100%;
+}
