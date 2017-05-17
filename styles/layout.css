@@ -6,7 +6,6 @@ body {
 
 div.container {
     width: 100%;
-    border: 1px solid gray;
 }
 
 header, footer {
@@ -48,4 +47,24 @@ header, footer {
     left:0;
     top:0;
     margin: 0;
+}
+
+.bio
+{
+    font-family: Papyrus;
+    width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.bio_img_left
+{
+    float: left;
+    margin-right: 30px;
+    width: 540px;
+}
+
+.bio > .header {
+    text-align: center;
 }
