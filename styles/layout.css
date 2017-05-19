@@ -2,11 +2,11 @@ body {
     margin: 0;
     background-color: black;
     color: white;
+    font-family: Papyrus;
 }
 
 div.container {
     width: 100%;
-    border: 1px solid gray;
 }
 
 header, footer {
@@ -48,4 +48,58 @@ header, footer {
     left:0;
     top:0;
     margin: 0;
+}
+
+.bio
+{
+    width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.bio_img_left
+{
+    float: left;
+    margin-right: 30px;
+    width: 540px;
+}
+
+.bio > .header {
+    text-align: center;
+}
+
+.hunt-info
+{
+    width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+    margin-bottom: 40px;
+}
+
+.hunt-info > .header
+{
+    text-align: center;
+}
+
+.hunt-info > p
+{
+    font-size: larger;
+}
+
+.hunt-info_img
+{
+    float: left;
+    margin-right: 30px;
+    width: 540px;
+}
+
+.hunt-info_sub-header
+{
+    text-align: center;
+}
+
+.hunt-info_sub-topic {
+    font-size: larger;
+    margin-bottom: 20px;
 }
