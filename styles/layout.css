@@ -5,7 +5,7 @@ body {
     font-family: Papyrus;
 }
 
-div.container {
+div.site_container {
     width: 100%;
 }
 
@@ -56,6 +56,11 @@ header, footer {
     margin: 0 auto;
     overflow: auto;
     margin-bottom: 20px;
+}
+
+.bio > p
+{
+    font-size: larger;
 }
 
 .bio_img_left
