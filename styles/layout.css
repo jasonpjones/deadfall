@@ -108,3 +108,11 @@ header, footer {
     font-size: larger;
     margin-bottom: 20px;
 }
+
+.pricing_page
+{
+    min-height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    width: 880px;
+}
