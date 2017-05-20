@@ -108,3 +108,20 @@ header, footer {
     font-size: larger;
     margin-bottom: 20px;
 }
+
+.pricing_page
+{
+    min-height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    width: 880px;
+}
+
+.pricing_page a{
+    color: #FF5105;
+}
+
+.contact-info
+{
+    color: #E10000;
+}
