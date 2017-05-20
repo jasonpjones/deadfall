@@ -116,3 +116,12 @@ header, footer {
     text-align: center;
     width: 880px;
 }
+
+.pricing_page a{
+    color: #FF5105;
+}
+
+.contact-info
+{
+    color: #E10000;
+}
