@@ -1,8 +1,9 @@
 body {
     margin: 0;
-    background-color: black;
+   /* background-color: black; */
     color: white;
     font-family: Papyrus;
+    background-image: url('../images/barnwood-background-grey.jpg');
 }
 
 div.site_container {
@@ -12,27 +13,18 @@ div.site_container {
 header, footer {
     padding: 1em;
     color: white;
-    background-color: black;
     clear: left;
     text-align: center;
+}
+
+.logo_image {
+    height: 160px;
 }
 
 .content {
     text-align: center;
     color: white;
     background-color: black;
-}
-
-.logo {
-    width:240px;
-    height:200px;
-    float:left;  /*actually shifts everything over and appears left of slide show - not bad   */
-}
-
-.logo img {
-
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .fadein
@@ -111,6 +103,8 @@ header, footer {
 
 .pricing_page
 {
+    font-size: larger;
+    font-weight: bolder;
     min-height: 600px;
     margin: 0 auto;
     text-align: center;
@@ -123,5 +117,6 @@ header, footer {
 
 .contact-info
 {
-    color: #E10000;
+    /*color: #E10000; */
+    color: white;
 }
