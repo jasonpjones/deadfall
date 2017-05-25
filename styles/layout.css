@@ -13,27 +13,18 @@ div.site_container {
 header, footer {
     padding: 1em;
     color: white;
-  /*  background-color: black; */
     clear: left;
     text-align: center;
+}
+
+.logo_image {
+    height: 160px;
 }
 
 .content {
     text-align: center;
     color: white;
     background-color: black;
-}
-
-.logo {
-    width:240px;
-    height:200px;
-    float:left;  /*actually shifts everything over and appears left of slide show - not bad   */
-}
-
-.logo img {
-
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .fadein
