@@ -1,6 +1,5 @@
 body {
     margin: 0;
-   /* background-color: black; */
     color: white;
     font-family: Papyrus;
     background-image: url('../images/barnwood-background-grey.jpg');
@@ -22,7 +21,7 @@ header, footer {
 {
     height: 200px;
     position: relative;
-    width: 900px;
+    width: 1093px;
     margin: 0 auto;
     border-top: double 5px #FF8040;
     border-bottom: double 5px #FF8040;
@@ -31,8 +30,6 @@ header, footer {
 .footer_content > div
 {
     display: inline-block;
-  /*  background-color: black;
-    border: solid 1px red; */
     height: 200px;
 }
 
@@ -64,6 +61,41 @@ header, footer {
     color: #FF8040;
     margin-top: 46px;
 }
+
+.footer_photo_link
+{
+    height: 150px;
+    width: 130px;
+    background-image: url('../images/az.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+#a_footer_photo_link
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer_photo_link, .footer_photo_link > p
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+
+.footer_photo_link > p
+{
+    padding-top: 40px;
+    padding-left: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+
 
 
 .logo_image {
@@ -166,6 +198,5 @@ header, footer {
 
 .contact-info
 {
-    /*color: #E10000; */
     color: white;
 }
