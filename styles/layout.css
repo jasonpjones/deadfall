@@ -17,6 +17,55 @@ header, footer {
     text-align: center;
 }
 
+
+.footer_content
+{
+    height: 200px;
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    border-top: double 5px #FF8040;
+    border-bottom: double 5px #FF8040;
+}
+
+.footer_content > div
+{
+    display: inline-block;
+  /*  background-color: black;
+    border: solid 1px red; */
+    height: 200px;
+}
+
+.footer_left, .footer_right
+{
+    position: absolute;
+}
+
+.footer_left
+{
+    left: 0px;
+}
+
+
+.footer_right
+{
+    right: 0px;
+}
+
+.footer_phrase
+{
+    width: 300px;
+    font-size: large;
+}
+.footer_copyright
+{
+    font-size: x-small;
+    font-weight: bolder;
+    color: #FF8040;
+    margin-top: 46px;
+}
+
+
 .logo_image {
     height: 160px;
 }
