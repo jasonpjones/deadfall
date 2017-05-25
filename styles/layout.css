@@ -73,13 +73,6 @@ header, footer {
     margin-right: 15px;
 }
 
-#a_footer_photo_link
-{
-    text-decoration: none;
-    color: black;
-}
-
-
 .footer_photo_link, .footer_photo_link > p
 {
     cursor: pointer;
@@ -95,7 +88,30 @@ header, footer {
     font-weight: bold;
 }
 
+.footer_contact_link
+{
+    height: 150px;
+    width: 150px;
+    background-image: url('../images/bearpaw.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    left: 15px;
+}
 
+.footer_contact_link > p
+{
+    color: white;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.footer_contact_link, .footer_contact_link > p
+{
+    cursor: pointer;
+    cursor: hand;
+}
 
 
 .logo_image {

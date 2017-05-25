@@ -189,5 +189,9 @@ $(function() {
     $(".footer_photo_link").on('click', function() {
         $("#agallery").trigger('click');
     });
+
+    $(".footer_contact_link").on('click', function () {
+        $("#apricing").trigger('click');
+    });
 });
 
