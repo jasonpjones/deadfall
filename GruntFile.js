@@ -41,7 +41,7 @@ module.exports = function (grunt) {
             },
             build: {
                 src: ['src/**/*.js'],
-                dest: 'dist/js/<%= pkg.name %>.min.js' 
+                dest: 'dist/dfo_app.min.js'
             }
         },
 
@@ -52,7 +52,7 @@ module.exports = function (grunt) {
             },
             build: {
                 src: ['styles/**/*.css'],
-                dest: 'dist/css/<%= pkg.name %>.min.css'
+                dest: 'dist/dfo_app.min.css'
             }
         },
 
