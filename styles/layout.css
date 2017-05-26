@@ -51,9 +51,23 @@ header, footer {
 
 .footer_phrase
 {
-    width: 300px;
+    width: 390px;
     font-size: large;
 }
+
+footer_phrase_contact_info
+{
+    font-size: small;
+}
+
+.footer_contact_info {
+    font-size: small;
+}
+.footer_contact_info a {
+    color: #FF5105
+}
+
+
 .footer_copyright
 {
     font-size: x-small;
