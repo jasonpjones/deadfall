@@ -143,7 +143,7 @@ $(function () {
             'speedIn': 500,
             'overlayColor': '#000',
             'padding': 0,
-            'overlayOpacity': .75
+            'overlayOpacity': 0.75
         });
     }
 
@@ -164,7 +164,7 @@ $(function () {
                                 hasHomePageViewerStarted = true;
                                 startViewer();
                             }
-                            else if (newHash.indexOf("gallery") != -1) {
+                            else if (newHash.indexOf("gallery") !== -1) {
                                 initializePhotoGallery();
                             }
                         });
