@@ -56,6 +56,11 @@ div.site_container {
     background-color: black;
 }
 
+.main-content
+{
+    min-height: 600px;
+}
+
 /* ------------------------------------------------------- Header -------------------------------------------------*/
 
 header, footer {

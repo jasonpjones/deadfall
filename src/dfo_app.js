@@ -153,11 +153,12 @@ $(function () {
         newHash = window.location.hash.substring(1);
 
         if (newHash) {
+            $("footer").hide();
             $mainContent
                 .find("#dynoContent")
-                .fadeOut(100, function () {
+                .fadeOut(250, function () {
                     $mainContent.hide().load(newHash + " #dynoContent", function () {
-                        $mainContent.fadeIn(100, function () {
+                        $mainContent.fadeIn(250, function () {
                             //alert(newHash);
                             $('.fadein p:gt(0)').hide();
                             if (newHash.indexOf("home") !== -1 && !hasHomePageViewerStarted) {
@@ -170,6 +171,7 @@ $(function () {
                         });
                         $("nav a").removeClass("current");
                         $("nav a[href$='" + newHash + "']").addClass("current");
+                        $("footer").show();
                     });
                 });
         }
