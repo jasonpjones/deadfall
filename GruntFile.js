@@ -41,7 +41,7 @@ module.exports = function (grunt) {
             },
             build: {
                 src: ['src/**/*.js'],
-                dest: 'dist/dfo_app.min.js'
+                dest: 'src/dfo_app.min.js'
             }
         },
 
@@ -51,8 +51,8 @@ module.exports = function (grunt) {
                 banner: '/*\n <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> \n*/\n'
             },
             build: {
-                src: ['styles/**/*.css'],
-                dest: 'dist/dfo_app.min.css'
+                src: ['css/**/*.css'],
+                dest: 'css/styles.min.css'
             }
         },
 
@@ -60,10 +60,10 @@ module.exports = function (grunt) {
         watch: {
             // for stylesheets, watch css and less files 
             // only run less and cssmin stylesheets:
-            files: ['styles/**/*.css', 'styles/**/*.less'],
+            files: ['css/**/*.css', 'css/**/*.less'],
             tasks: ['less', 'cssmin'],
             scripts: {
-                files: 'scripts/**/*.js',
+                files: 'src/**/*.js',
                 tasks: ['jshint', 'uglify']
             }
         }
